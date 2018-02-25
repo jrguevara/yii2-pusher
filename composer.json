@@ -1,0 +1,25 @@
+{
+  "name": "veirons/yii2-pusher",
+  "description": "Yii2 wrapper for Pusher",
+  "keywords": [
+    "yii2",
+    "realtime",
+    "pusher.com"
+  ],
+  "homepage": "http://jviba.com",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/veirons/yii2-pusher/issues",
+    "source": "https://github.com/veirons/yii2-pusher"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "pusher/pusher-php-server": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "veirons\\pusher\\": ""
+    }
+  }
+}
