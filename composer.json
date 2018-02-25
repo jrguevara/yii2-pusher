@@ -21,5 +21,7 @@
     "psr-4": {
       "veirons\\pusher\\": ""
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
